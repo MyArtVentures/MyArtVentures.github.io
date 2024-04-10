@@ -1,0 +1,11 @@
+
+picture{
+ display: inline-block;
+ width: 100%;
+ align: center;
+}
+
+picture > img {
+ position: absolute;
+ width: 100%;
+}

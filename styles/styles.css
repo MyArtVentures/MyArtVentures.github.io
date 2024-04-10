@@ -1,0 +1,17 @@
+
+body {
+  font-size: 20px;
+}
+
+*{
+  font-size: inherit;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  padding: 2rem;
+}
+
+top {
+  position: relative;
+  display: block;
+}

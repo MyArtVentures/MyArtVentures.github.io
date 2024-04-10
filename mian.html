@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type='text/css' href='./styles/styles.css' rel='stylesheet'>
+  </head>
+  <body>
+    <top>
+      <item> Artworks </item>
+      <item> Myself </item>
+      <item> Where you can see my works </item>
+      <specialitem> take me to a random painting! </specialitem>
+    </top>
+    <main>
+      Hi, my name is Lucy. Here I am...
+      <picturecentre>
+        <img src="resources/lucy-main.jpg"/>
+      </picturecentre>
+
+      I'm an aspiring artist learning to do art, and selling it.
+      You can see sme of my artworks on this website, I recommend the take me to a random painting button, found below:
+      <takemetoarandompaintingbutton>
+        <button> take me to a random painting! </button>
+      </takemetoarandompaintingbutton>
+    </main>
+
+      <script type='text/javascript'>
+
+        window.addEventListener('load', (event)=>{
+          console.log('Loaded');
+        })
+
+        function onloaded(){
+          b  = document.getElementsByTagName('takemetoarandompaintingbutton');
+          b.onClick = function(event){
+            window.location.push('/pictures/picturecatginger.html')
+          }
+        }
+
+        window.addEventListener('load', (event)=>{
+          onloaded();
+        })
+
+      </script>
+
+  </body>
+</html>
