@@ -8,10 +8,38 @@ body {
   margin: 0;
   display: inline-block;
   position: relative;
-  padding: 2rem;
+  padding-top: .5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: .5rem;
 }
 
 top {
+  color: darkgrey;
+  background-color: grey;
   position: relative;
   display: block;
+  width: 100%;
+}
+
+top > specialitem {
+ color: #777;
+ border: 3px solid lightgrey;
+ background: lightgrey;
+}
+
+main {
+ background: #fffeee;
+ position: relative;
+ display: block;
+ width: 100%;
+}
+
+main {
+ padding: 2rem;
+}
+
+img {
+ position: relative;
+ width: 50%;
 }
